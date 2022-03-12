@@ -1,11 +1,13 @@
 body{
     font-family: 'Roboto Mono', monospace;
+    background-image: linear-gradient(to left, rgb(255, 255, 255) , rgba(217, 240, 247, 0.212));
 }
 .menu-nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 4px 7px rgba(0,0,29,0.15)
+    box-shadow: 0px 4px 7px rgba(0,0,29,0.15);
+    background-color: rgba(255, 255, 255, 0.904);
 }
 .link-menu{
     padding: 20px 20px 20px 10px;
@@ -22,14 +24,14 @@ body{
     margin-bottom: 10vw;
 }
 #retangulo-principal{
-    background-color: rgba(243, 243, 243, 0.308);
+    background-color: rgba(255, 255, 255, 0.876);
     margin-top: 20vw;
     width:85vw;
     text-align: center;
     box-shadow: 0px 4px 7px rgba(0,0,29,0.15);
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 5px;
+    border-radius: 5px;  
 }
 .foto-principal{
     position:relative;
@@ -74,7 +76,7 @@ body{
     margin-bottom: 10px;
     padding: 8px 15px;
     border: none;
-    background-color: rgba(34, 34, 212, 0.397);
+    background-color: rgba(85, 148, 248, 0.561);
     box-shadow: 0px 4px 7px rgba(0, 0, 29, 0.061);
     border-radius: 2px;
 }
@@ -87,7 +89,7 @@ body{
 }
 @media screen and (min-width: 767px) {
     #retangulo-principal{
-        width: 45vw;  
+        width: 40vw;  
         margin-top: 5vw;
     }
     .menu-nav{
