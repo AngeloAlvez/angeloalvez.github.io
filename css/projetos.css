@@ -1,0 +1,70 @@
+.card{
+    background-color: rgba(243, 243, 243, 0.308);
+    margin-top: 10vw;
+    width:85vw;
+    text-align: center;
+    box-shadow: 0px 4px 7px rgba(0,0,29,0.15);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.lista-card{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.titulo-principal{
+    padding: 10px;
+    font-weight: bold;
+}
+.imagem-principal{
+    width: 30vw;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.imagem-principal2{
+    width: 40vw;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.legenda-principal{
+    margin-top: 10px;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+}
+.prints{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* // apenas pra igualar os dois icones */
+.web{
+    width: 27px;
+}
+.imagem-card{
+    width: 30px;
+}
+/* ----------------- */
+@media screen and (min-width: 767px) {
+    main{
+        margin-top: -5vw;
+    }
+    .card{
+        width: 50vw;
+    }
+    .imagem-principal{
+        width: 15vw;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .imagem-principal2{
+        width: 30vw;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .titulo-principal{
+        font-size: 1.5em;
+    }
+    .legenda-principal{
+        font-size: 1em;
+    }
+}
