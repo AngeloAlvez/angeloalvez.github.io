@@ -42,6 +42,10 @@
 .imagem-card{
     width: 30px;
 }
+.video{
+    width: 225px;
+    height: 100px;
+}
 /* ----------------- */
 @media screen and (min-width: 767px) {
     main{
@@ -65,5 +69,9 @@
     }
     .legenda-principal{
         font-size: 1em;
+    }
+    .video{
+        width: 340px;
+        height:190px;
     }
 }
