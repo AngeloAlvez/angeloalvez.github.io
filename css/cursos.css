@@ -1,0 +1,9 @@
+.certificado{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px double rgb(136, 135, 135)
+}
+.titulo-certificado{
+    padding: 10px;
+    font-size: 1em;
+}
